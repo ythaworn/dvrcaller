@@ -1,15 +1,10 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at https://mozilla.org/MPL/2.0/.
-#
 # dvr-calling.R
+#
+# Copyright (c) 2021 Yuttapong Thawornwattana
 #
 # Infer DVR deletion patterns of Mtb from read depth file 
 # from mapping short reads to 14723_8_51.6
-#
-# 
-# Created by Yuttapong Thawornwattana
-# 24/11/2021
+
 
 suppressPackageStartupMessages(library(tidyverse))
 suppressPackageStartupMessages(library(foreach))

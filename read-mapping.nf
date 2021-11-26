@@ -1,21 +1,16 @@
 #!/usr/bin/env nextflow
 
 /*
- * This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at https://mozilla.org/MPL/2.0/.
- *
  * read-mapping.nf
  * 
+ * Copyright (c) 2021 Yuttapong Thawornwattana
+ *
  * Nextflow workflow for read mapping using BWA MEM
  * 
  * Requirements:
- * - nextflow
- * - bwa
- * - samtools
- * 
- * Created by Yuttapong Thawornwattana
- * 24/11/2021
+ *  - nextflow
+ *  - bwa
+ *  - samtools
  */
 
 
