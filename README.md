@@ -1,4 +1,4 @@
-# `DVR calling`
+# DVR caller for Mtb
 
 Estimate the pattern of 68 direct variable repeats (DVRs) in _Mycobacterium tuberculosis_ (mtb) genome from short reads data.
 
