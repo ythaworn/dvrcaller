@@ -1,6 +1,6 @@
 # DVR caller for Mtb
 
-Estimate the pattern of 68 direct variable repeats (DVRs) in _Mycobacterium tuberculosis_ (mtb) genome from short reads data.
+Estimate the pattern of 68 [direct variable repeats (DVRs)](https://doi.org/10.1128/jcm.35.4.907-914.1997) in _Mycobacterium tuberculosis_ (mtb) genome from short-read genome sequencing data.
 
 
 ## Input
@@ -33,6 +33,13 @@ Other files, `dvr-full.csv` and `dvr-filt.csv`, contain more information about r
 
 ## Requirements
 
-The nextflow script `read-mapping.nf` requires nextflow, bwa and samtools.
+`read-mapping.nf` requires `nextflow`, `bwa` and `samtools`.
 
-The R script `dvr-calling.R` requires tidyverse, foreach and gridExtra.
+`dvr-calling.R` requires `tidyverse`, `foreach` and `gridExtra` packages in `R`.
+
+
+## Citation
+
+Netikul T, Thawornwattana Y, Mahasirimongkol S, Yanai H, Maung HMW, Chongsuvivatwong V, Palittapongarnpim P. (2022) __Whole-genome single nucleotide variant phylogenetic analysis of _Mycobacterium tuberculosis_ lineage 1 in endemic regions of Asia and Africa.__ _Sci Rep._, 12(1):1565. [[doi:10.1038/s41598-022-05524-0]](https://doi.org/10.1038/s41598-022-05524-0)
+
+
